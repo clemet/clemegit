@@ -1,0 +1,5 @@
+#!/bin/bash
+#mv $1 $2
+#head $2 | nl > $3
+numberVar=$(($1+$2))
+echo $numberVar
