@@ -1,0 +1,209 @@
+passwd
+pwd
+ls
+ls -l
+ls -la
+ls /itc
+ls /etc
+ls /
+ls -l /
+ls -la /
+cd /
+ls
+ls /home/cguaitoli/
+ls home&cguaitoli
+ls home/cguaitoli
+cd home/
+cd home/cguaitoli
+cd roba
+cd ../cguaitoli/../cguaitoli/setup/
+ls -l
+touch 
+cd
+touch fileone
+cd
+touch cleme
+file cleme
+man file
+man file -k data
+man -k metadata
+man /n
+man -k
+man
+man -k
+man /
+man /file
+touch
+man
+man /treasure
+file treasure
+man :
+man -k find
+man find
+find -name "treasure"
+cat ./.hidden/verysecret/monkeyisland/treasure 
+nano test
+cat test
+pwd
+cd
+cd~
+cd / home/user
+mkdir
+ie
+mkdir
+mkdir ciao
+ls
+rmdir ciao
+touch
+touch mela
+mkdir pera
+cp mela pera
+ls
+ls pera
+rm pera/mela
+ls
+ls pera
+mv mela pera
+ls
+ls pera
+mv pera frutta
+ls
+ls pera
+nano test
+rm pera
+mkdir pera
+rm pera
+rm mela
+touch mela
+rm mela
+rmdir pera
+git clone https://github.com/ca1ig0la/introToLinux.git
+cd
+ls
+cd introToLinux/
+ls
+uniq ordering.test 
+ls
+exit
+ls
+ls mela
+touch mela
+ls mela
+nano test
+cp file
+cp file\home
+cd/home/user
+file
+man -help
+help
+ls -l
+man man
+mkdir trump
+ls
+rm /r trump
+ls
+rm -r trump
+ls
+pwd
+ls -al
+sudo cd
+cd
+mkdir git
+mkdir git/firstProject
+cd git/firstProject/
+git clone https://github.com/clemet/clemegit.git
+git push -u origin master
+ls -al
+cd ..
+cd git
+cd firstProject/clemegit/
+ls -la
+cd git
+ls
+cd firstProject
+ls -la
+cd clemegit
+touch myfirsttextfile.txt
+ls -la
+nano myfirsttextfile.txt 
+ls -al
+cat myfirsttextfile.txt 
+nano myfirsttextfile.txt 
+touch collegues.txt
+nano collegues.txt 
+cat collegues.txt 
+ls
+sort collegues.txt 
+sort collegues.txt > sortestudents
+ls - al
+ls -al
+cat sortestudents 
+mv sortestudents sortestudents 
+ls
+cat collegues.txt 
+cat collegues.txt | sort
+cd collegues.txt  2>errorlist
+cat errorlist 
+cd collegues.txt  2>> errorlist 
+cat errorlist 
+tac sortestudents 
+cat collegues.txt  | sort | tac
+ls
+cd
+mkdir tmp
+cd tmp
+ls ..
+pwd
+ls -a ..
+cat <ls.out
+cat ls.out
+nl collegues
+
+cd git/firstProject/clemegit/
+nl collegues.txt 
+cd introtolinx
+cd introtolinxlinux
+cp ~/introToLinux/stations.csv .
+cp ~/introToLinux/trainNumber .
+cp trainNumber ../../
+pwd
+cd
+find -name introTo*
+find -name clemegit
+find -name clemegit | cd
+pwd
+cd
+ls -al
+cd clemegit
+cd git/firstProject/
+ls
+cd clemegit/
+ls
+man head
+head trainNumber 
+man head
+head -n 3 trainNumber 
+nl trainNumber 
+nl trainNumber | tail -n 1
+wc trainNumber 
+man wc
+wc station.csv
+wc -w trainNumber 
+nl trainNumber | head -n 20  
+ls 
+wc stations.csv 
+nl stations.csv | tail
+tail stations.csv | nl
+man cut
+head -20 stations.csv 
+man cut
+cut -f 1,3 -d "," stations.csv 
+man sed
+sed 's/Toscana/Marche/g' stations.csv 
+cut -f 3,1 -d "," stations.csv 
+man cut 
+cut -f 3,1 -d "," stations.csv > pippo
+man sort
+man cut
+cut -f 1,3 -d "," stations.csv | sort -k 2
+cut -f 1,3 -d "," stations.csv | sort -k2 -t ","
